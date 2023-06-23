@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    float: right;
+    width: 50%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+header {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(../images/Bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
